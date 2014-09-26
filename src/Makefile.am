@@ -14,6 +14,6 @@ libestr_la_SOURCES = \
 	string.c
 
 libestr_la_LIBADD = 
-libestr_la_LDFLAGS = -version-info 0:0:0
+libestr_la_LDFLAGS = -version-info 0:0:0 -rpath '$(libdir)'
 
 include_HEADERS = 
